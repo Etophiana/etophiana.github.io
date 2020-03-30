@@ -1,44 +1,34 @@
-
+<!-- ./public/index.html -->
 <!DOCTYPE html>
-<html >
-<head>
-  <meta charset="UTF-8">
-  <title>Etophiana</title>
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="description" content="Etophiana falan filan">
-  <meta name="keywords" content="Enter, your, keywords">
-  <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.min.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/default-skin/default-skin.css">
-  <link rel="stylesheet" href="css/photoswipe.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/reveal.css">
-</head>
-<body>
-  <div id="starfield" class="full-screen"></div>
-  
-  
-  <div class="content">
-    <!--<div id="countdown" data-time="2020/04/12 07:03:27"></div> change data-time -->
-    <h2 style="font-family: 'Righteous'">Etophiana gayriresmî sitesidir bir işe yaramaz.</h2>
-    <a class="btn" href="https://twitter.com/etophiana">
-      Al Twitter</a><br><br>
-	<a class="btn" href="https://www.instagram.com/etophiana/">
-      Al bu da Instagram</a><br><br>
-	<a class="btn" href="https://www.linkedin.com/in/etophiana/">
-      Azıcık ciddiyet bu de Linkedin</a><br><br>
-	<a class="btn" href="https://www.google.com">
-      Al Google</a>  
-  </div>
+<html>
+  <head>
+    <title>First website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
 
-  <script src="js/jquery.min.js"></script>
-  <script src='js/jquery.countdown.min.js'></script>
-  <script src='js/TweenMax.min.js'></script>
-  <script src="js/anime.min.js"></script>
-  <script src="js/photoswipe.min.js"></script>
-  <script src="js/photoswipe-ui-default.min.js"></script>
-  <script src="js/index.js"></script>
-</body>
+    <main>
+      <header>
+        <div class="user-count fa fa-user">0</div>
+        <h1>Radyo Babacım Chat</h1>
+      </header>
+
+      <section class="chat"></section>
+
+      <form>
+        <input type="text" placeholder="Say something nice" />
+        <button>Send</button>
+      </form>
+    </main>
+
+
+    <!-- Include jquery, cookies, socket.io (client-side) and your own code -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/cookie_js@1.2.2/cookie.min.js"></script>
+    <script src="https://unpkg.com/socket.io-client@2/dist/socket.io.slim.js"></script>
+    <script src="javascript.js"></script>
+  </body>
 </html>
